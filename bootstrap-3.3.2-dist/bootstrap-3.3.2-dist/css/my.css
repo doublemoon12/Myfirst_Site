@@ -166,3 +166,24 @@ table {
     left: 15%;
     animation: slide 2s ease-out;
 }
+
+.footernote{
+    height: 180px;
+    color: aliceblue;
+    background-color: darkgray;
+}
+
+.note1{
+    float: left;
+    padding: 40px;
+}
+
+.note2{
+    padding: 40px;
+}
+
+@media (max-width: 768px){
+    .note2{
+        display: none;
+    }
+}
