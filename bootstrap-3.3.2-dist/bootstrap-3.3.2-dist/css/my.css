@@ -179,6 +179,8 @@ table {
 }
 
 .note2{
+    width: 300px;
+    float: left;
     padding: 40px;
 }
 
