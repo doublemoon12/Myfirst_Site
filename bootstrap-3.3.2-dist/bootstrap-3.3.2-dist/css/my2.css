@@ -51,6 +51,8 @@ ul{
     }
 }
 
+@media()
+
 body {
 	line-height: 1;
 }
@@ -120,6 +122,35 @@ table {
 .card:hover{
     opacity: 0.7;
     transform: scale(1.1);
+}
+
+.productmid{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img{
+    background-image: url(/image/urbanbrush-20211005174858926902.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition-duration: 8s;
+    background-position: 50%
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+.productmid>h1{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    text-align: left;
+    z-index: 30;
 }
 
 footer{
